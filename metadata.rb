@@ -1,7 +1,10 @@
 name 'nagios_liatrio'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
+maintainer 'Eddie Bracho'
+maintainer_email 'eddieb@liatrio.com'
+license 'All rights reserved'
 description 'Installs/Configures nagios_liatrio'
 long_description 'Installs/Configures nagios_liatrio'
 version '0.1.0'
+
+depends 'nagios', '~> 7.2.6'
+

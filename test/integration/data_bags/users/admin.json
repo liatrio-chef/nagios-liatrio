@@ -1,0 +1,9 @@
+{
+  "id": "admin",
+  "groups": "sysadmin",
+  "htpasswd": "$apr1$RzcGBwTz$/lde5dQWXEiWxdZ.nOnbT1",
+  "nagios": {
+    "email": "eddieb@liatrio.com"
+  }
+}
+
