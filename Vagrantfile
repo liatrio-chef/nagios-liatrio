@@ -7,6 +7,7 @@ Vagrant.configure(2) do |config|
   config.berkshelf.enabled = true
   config.vm.provision 'chef_solo' do |chef|
     chef.data_bags_path = 'test/integration/data_bags'
+    chef.add_recipe 'nrpe_liatrio::default'
     chef.add_recipe 'nagios_liatrio::default'
   end
 
