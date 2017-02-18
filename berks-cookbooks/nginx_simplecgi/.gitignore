@@ -1,7 +1,0 @@
-.*
-!.gitignore
-.kitchen/
-.kitchen.local.yml
-tmp
-.librarian
-*.lock
