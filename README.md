@@ -33,7 +33,7 @@ Usage
 
 or
 
-Just include `jenkins-liatrio` in your node's `run_list`:
+Just include `nagios-liatrio` in your node's `run_list`:
 
 ```json
 {

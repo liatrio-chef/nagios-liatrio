@@ -12,7 +12,6 @@ Vagrant.configure(2) do |config|
 
   config.vm.network 'forwarded_port', guest: 80, host: 2080
 
-
   config.vm.provider :virtualbox do |v|
     v.customize ['modifyvm', :id, '--natdnshostresolver1', 'on']
     v.customize ['modifyvm', :id, '--cableconnected1', 'on']
