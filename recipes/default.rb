@@ -9,4 +9,3 @@ execute 'disable_selinux' do
 end
 
 include_recipe 'nagios::default'
-

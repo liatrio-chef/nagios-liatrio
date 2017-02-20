@@ -8,4 +8,3 @@ version '0.2.1'
 
 depends 'nrpe_liatrio', '~> 0.1.1'
 depends 'nagios', '~> 7.2.6'
-
