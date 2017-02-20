@@ -8,4 +8,6 @@ execute 'disable_selinux' do
   command 'setenforce 0'
 end
 
+include_recipe 'yum_epel'
 include_recipe 'nagios::default'
+package 'nagios-plugins-all'
