@@ -6,5 +6,5 @@ description 'Installs/Configures nagios_liatrio'
 long_description 'Installs/Configures nagios_liatrio'
 version '0.2.2'
 
-depends 'yum-epel', '~> 2.1.1'
 depends 'nagios', '~> 7.2.6'
+depends 'nrpe' , '~> 1.6.4'
