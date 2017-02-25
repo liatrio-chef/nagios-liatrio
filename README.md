@@ -50,8 +50,16 @@ N/A
 
 Data Bags
 ----------
-* Requires a [users data](https://github.com/schubergphilis/nagios/tree/master/test/integration/data_bags/users) bag with at least one user
-* Requires a [nagios_services](https://github.com/schubergphilis/nagios/tree/master/test/integration/data_bags/nagios_services) data bag with at least one service
+* [nagios_users](https://github.com/schubergphilis/nagios/tree/master/test/integration/data_bags/users) bag with at least one user
+* [nagios_services](https://github.com/schubergphilis/nagios/tree/master/test/integration/data_bags/nagios_services) data bag with at least one service
+* `nagios_creds` with item `slack` with the following format:
+```
+{
+  "webhook_url": "...",
+  "channel": "#alerts",
+  "botname": "libotrio"
+}
+```
 
 Contributing
 ------------
